@@ -35,21 +35,20 @@
 
    <!-- ========================== -->
 
-   <!--<div class="modal-overlay closed" id="modal-overlay">-->
-	   <!--<span class="modal-overlay&#45;&#45;close"></span>-->
-   <!--</div>-->
+  <!-- <div class="modal-overlay closed" id="modal-overlay">
+	   <span class="modal-overlay--close"></span>
+   </div>
 
-   <!--<div class="modal closed" id="modal">-->
-	   <!--<div class="modal&#45;&#45;img" >-->
-		   <!--&lt;!&ndash;<span class="modal-overlay&#45;&#45;close" id="RO"></span>&ndash;&gt;-->
-		   <!--<h2>Hi there!</h2>-->
-		   <!--<h3>Can I have your attention, please?</h3>-->
-		   <!--<p>Right now you're looking at the website that I'm (Andrew Perminov) creating and working on.</p>-->
-		   <!--<p>Please, don't be afraid if you'll see some kind of glitches, unfinished sections or something like that, as I mentioned before - I'm still working at this website!  </p>-->
-		   <!--<p><strong>Thank you for your patience!</strong></p>-->
-		   <!--<p>You may click on the cross or somewhere else to close this window.</p>-->
-	   <!--</div>-->
-   <!--</div>-->
+   <div class="modal closed" id="modal">
+	   <div class="modal--img" >
+		   <h2>Hi there!</h2>
+		   <h3>Can I have your attention, please?</h3>
+		   <p>Right now you're looking at the website that I'm (Andrew Perminov) creating and working on.</p>
+		   <p>Please, don't be afraid if you'll see some kind of glitches, unfinished sections or something like that, as I mentioned before - I'm still working at this website!  </p>
+		   <p><strong>Thank you for your patience!</strong></p>
+		   <p>You may click on the cross or somewhere else to close this window.</p>
+	   </div>
+   </div>	-->
 
    <!-- ========================== -->
 
@@ -58,19 +57,22 @@
 			<div class="row nav-bar">
 				<a href="#start"><img src="img/logo/logo-white.png" alt="Omnifood logo" class="logo-white"></a>
 				<a href="#start"><img src="img/logo/logo-black.png" alt="Omnifood logo" class="logo-black"></a>
-				<ul class="main-nav">
+				<ul class="main-nav js--main-nav">
 					<li><a href="#features">Food deleviry</a></li>
 					<li><a href="#works">How it works</a></li>
 					<li><a href="#cities">Our cities</a></li>
 					<li><a href="#signUp">Sign up</a></li>
 				</ul>
+				<a	class="mobile-nav-ico js--nav-ico"><i class="ion-navicon-round"></i></a>
 			</div>
 		</nav>
 
 		<div class="hero-text-box">
-			<h1>Goodbye junk food. <br> Hello super healthy meals.</h1>
-			<a class="button btn-full js--scroll-signUp" href="#signUp">I'm hungry</a>
-			<a class="button btn-ghost js--scroll-start" href="#">Show me more</a>
+			<div class="row js--wp-htb">
+				<h1>Goodbye junk food. <br> Hello super healthy meals.</h1>
+				<a class="button btn-full js--scroll-signUp" href="#signUp">I'm hungry</a>
+				<a class="button btn-ghost js--scroll-start" href="#">Show me more</a>
+			</div>
 		</div>
 	</header>
 
@@ -89,30 +91,8 @@
 		</div>
 
 		<div class="container">
-			<div class="row">
-				<!--<div class="row heading-row">-->
-					<!--<div class="col-md-3 col-sm-3 col-sm-12 hr-box" id="first">-->
-						<!--<i class="ion-ios-infinite-outline features-icon"></i>-->
-						<!--<h3>Up to 365 days/year</h3>-->
-					<!--</div>-->
-
-					<!--<div class="col-md-3 col-sm-3 col-sm-12 hr-box" id="second">-->
-						<!--<i class="ion-ios-stopwatch-outline features-icon"></i>-->
-						<!--<h3>Ready in 20 minutes</h3>-->
-					<!--</div>-->
-
-					<!--<div class="col-md-3 col-sm-3 col-sm-12 hr-box" id="fourth">-->
-						<!--<i class="ion-ios-nutrition-outline features-icon"></i>-->
-						<!--<h3>100% organic</h3>-->
-					<!--</div>-->
-
-					<!--<div class="col-md-3 col-sm-3 col-sm-12 hr-box">-->
-						<!--<i class="ion-ios-cart-outline features-icon"></i>-->
-						<!--<h3>Order anything</h3>-->
-					<!--</div>-->
-				<!--</div>-->
-
-				<div class="col-md-3  col-sm-3  box" id="first-co">
+			<div class="row js--wp-features">
+				<div class="col-md-3  col-sm-3 box" id="first-co">
 					<i class="ion-ios-infinite-outline features-icon"></i>
 					<div class="hdng"><h3>Up to 365 days/year</h3></div>
 					<p>
@@ -248,7 +228,7 @@
 			<h2>How it works &mdash; Simple as 1, 2, 3</h2>
 		</div>
 		<div class="row">
-			<div class="col-xs-12 col-sm-6 col-md-6 step-box">
+			<div class="col-xs-12 col-sm-6 col-md-6 step-box js--wp-works">
 				<img src="img/howWorks/app-iPhone.png" alt="Phone app" class="app-img">
 			</div>
 
@@ -282,7 +262,7 @@
 		<div class="row">
 			<h2>We're currently in these cities</h2>
 		</div>
-		<div class="row">
+		<div class="row js--wp-cities">
 			<div class="cities-list col-md-3 col-sm-6 box">
 				<img src="img/cities/lisbon-3.jpg" alt="Lisbon">
 				<h3>Lisbon</h3>
@@ -404,7 +384,7 @@
 		<div class="row">
 			<h2>Start eating healthy today</h2>
 		</div>
-		<div class="row">
+		<div class="row js--wp-signUp">
 			<div class="col-md-4 col-sm-4">
 				<div class="plan-box">
 					<div>
