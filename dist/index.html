@@ -12,7 +12,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<meta property="og:image" content="path/to/image.jpg">
-	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="img/favicon/logo-favicon.png" type="image/x-icon">
 
 
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,700" rel="stylesheet">
@@ -25,7 +25,6 @@
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
 
-	<!--<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>-->
 
 	<link rel="stylesheet" href="css/main.min.css">
 
@@ -35,53 +34,49 @@
 <body>
 
    <!-- ========================== -->
-   <!-- ========================== -->
 
-   <div class="modal-overlay closed" id="modal-overlay">
-	   <span class="modal-overlay--close"></span>
-   </div>
+   <!--<div class="modal-overlay closed" id="modal-overlay">-->
+	   <!--<span class="modal-overlay&#45;&#45;close"></span>-->
+   <!--</div>-->
 
-   <div class="modal closed" id="modal">
-	   <div class="modal--img" >
-		   <!--<span class="modal-overlay&#45;&#45;close" id="RO"></span>-->
-		   <h2>Hi there!</h2>
-		   <h3>Can I have your attention, please?</h3>
-		   <p>Right now you're looking at the website that I'm (Andrew Perminov) creating and working on.</p>
-		   <p>Please, don't be afraid if you'll see some kind of glitches, unfinished sections or something like that, as I mentioned before - I'm still working at this website!  </p>
-		   <p><strong>Thank you for your patience!</strong></p>
-		   <p>You may click on the cross or somewhere else to close this window.</p>
-	   </div>
-   </div>
-
-
-
+   <!--<div class="modal closed" id="modal">-->
+	   <!--<div class="modal&#45;&#45;img" >-->
+		   <!--&lt;!&ndash;<span class="modal-overlay&#45;&#45;close" id="RO"></span>&ndash;&gt;-->
+		   <!--<h2>Hi there!</h2>-->
+		   <!--<h3>Can I have your attention, please?</h3>-->
+		   <!--<p>Right now you're looking at the website that I'm (Andrew Perminov) creating and working on.</p>-->
+		   <!--<p>Please, don't be afraid if you'll see some kind of glitches, unfinished sections or something like that, as I mentioned before - I'm still working at this website!  </p>-->
+		   <!--<p><strong>Thank you for your patience!</strong></p>-->
+		   <!--<p>You may click on the cross or somewhere else to close this window.</p>-->
+	   <!--</div>-->
+   <!--</div>-->
 
    <!-- ========================== -->
-   <!-- ========================== -->
 
-	<header>
+	<header id="start">
 		<nav>
 			<div class="row nav-bar">
-				<a href="#"><img src="img/logo/logo-white.png" alt="Omnifood logo" class="logo"></a>
+				<a href="#start"><img src="img/logo/logo-white.png" alt="Omnifood logo" class="logo-white"></a>
+				<a href="#start"><img src="img/logo/logo-black.png" alt="Omnifood logo" class="logo-black"></a>
 				<ul class="main-nav">
-					<li><a href="#">Food deleviry</a></li>
-					<li><a href="#">How it works</a></li>
-					<li><a href="#">Our cities</a></li>
-					<li><a href="#">Sign up</a></li>
+					<li><a href="#features">Food deleviry</a></li>
+					<li><a href="#works">How it works</a></li>
+					<li><a href="#cities">Our cities</a></li>
+					<li><a href="#signUp">Sign up</a></li>
 				</ul>
 			</div>
 		</nav>
 
 		<div class="hero-text-box">
 			<h1>Goodbye junk food. <br> Hello super healthy meals.</h1>
-			<a class="button btn-full" href="">I'm hungry</a>
-			<a class="button btn-ghost" href="">Show me more</a>
+			<a class="button btn-full js--scroll-signUp" href="#signUp">I'm hungry</a>
+			<a class="button btn-ghost js--scroll-start" href="#">Show me more</a>
 		</div>
 	</header>
 
 	<!-- ------------------------ FEATURE SECTION ------------------------ -->
 
-	<section class="section-features">
+	<section id="features" class="section-features js--section-features">
 		<div class="row">
 			<div class="col-md-12">
 				<h2>Get food fast &mdash; not fast food</h2>
@@ -95,31 +90,31 @@
 
 		<div class="container">
 			<div class="row">
-				<div class="row heading-row">
-					<div class="col-md-3 col-sm-3 col-sm-12 hr-box">
-						<i class="ion-ios-infinite-outline features-icon"></i>
-						<h3>Up to 365 days/year</h3>
-					</div>
+				<!--<div class="row heading-row">-->
+					<!--<div class="col-md-3 col-sm-3 col-sm-12 hr-box" id="first">-->
+						<!--<i class="ion-ios-infinite-outline features-icon"></i>-->
+						<!--<h3>Up to 365 days/year</h3>-->
+					<!--</div>-->
 
-					<div class="col-md-3 col-sm-3 col-sm-12 hr-box">
-						<i class="ion-ios-stopwatch-outline features-icon"></i>
-						<h3>Ready in 20 minutes</h3>
-					</div>
+					<!--<div class="col-md-3 col-sm-3 col-sm-12 hr-box" id="second">-->
+						<!--<i class="ion-ios-stopwatch-outline features-icon"></i>-->
+						<!--<h3>Ready in 20 minutes</h3>-->
+					<!--</div>-->
 
-					<div class="col-md-3 col-sm-3 col-sm-12 hr-box">
-						<i class="ion-ios-nutrition-outline features-icon"></i>
-						<h3>100% organic</h3>
-					</div>
+					<!--<div class="col-md-3 col-sm-3 col-sm-12 hr-box" id="fourth">-->
+						<!--<i class="ion-ios-nutrition-outline features-icon"></i>-->
+						<!--<h3>100% organic</h3>-->
+					<!--</div>-->
 
-					<div class="col-md-3 col-sm-3 col-sm-12 hr-box">
-						<i class="ion-ios-cart-outline features-icon"></i>
-						<h3>Order anything</h3>
-					</div>
-				</div>
+					<!--<div class="col-md-3 col-sm-3 col-sm-12 hr-box">-->
+						<!--<i class="ion-ios-cart-outline features-icon"></i>-->
+						<!--<h3>Order anything</h3>-->
+					<!--</div>-->
+				<!--</div>-->
 
-				<div class="col-md-3 col-sm-3 col-sm-12 box">
-					<!--<i class="ion-ios-infinite-outline features-icon"></i>-->
-					<!--<h3>Up to 365 days/year</h3>-->
+				<div class="col-md-3  col-sm-3  box" id="first-co">
+					<i class="ion-ios-infinite-outline features-icon"></i>
+					<div class="hdng"><h3>Up to 365 days/year</h3></div>
 					<p>
 						Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage.
 						You can also choose to order more flexibly if that's your style.
@@ -128,9 +123,9 @@
 
 
 
-				<div class="col-md-3 col-sm-3 col-sm-12 box">
-					<!--<i class="ion-ios-stopwatch-outline features-icon"></i>-->
-					<!--<h3>Ready in 20 minutes</h3>-->
+				<div class="col-md-3 col-sm-3  box" id="second-co">
+					<i class="ion-ios-stopwatch-outline features-icon"></i>
+					<div class="hdng"><h3>Ready in 20 minutes</h3></div>
 					<p>
 						You're only twenty minutes away from your delicious and super healthy meals delivered right to your home.
 						We work with the best chefs in each town to ensure that you're 100% happy.
@@ -139,9 +134,9 @@
 
 
 
-				<div class="col-md-3 col-sm-3 col-sm-12 box">
-					<!--<i class="ion-ios-nutrition-outline features-icon"></i>-->
-					<!--<h3>100% organic</h3>-->
+				<div class="col-md-3 col-sm-3  box">
+					<i class="ion-ios-nutrition-outline features-icon"></i>
+					<div class="hdng"><h3>100% organic</h3></div>
 					<p>
 						All our vegetables are fresh, organic and local.
 						Animals are raised without added hormones or antibiotics.
@@ -150,9 +145,9 @@
 				</div>
 
 
-				<div class="col-md-3 col-sm-3 col-sm-12 box">
-					<!--<i class="ion-ios-cart-outline features-icon"></i>-->
-					<!--<h3>Order anything</h3>-->
+				<div class="col-md-3 col-sm-3  box">
+					<i class="ion-ios-cart-outline features-icon"></i>
+					<div class="hdng"><h3>Order anything</h3></div>
 					<p>
 						We don't limit your creativity, which means you can order whatever you feel like.
 						You can also choose from our menu containing over 100 delicious meals. It's up to you!
@@ -224,15 +219,16 @@
 
 	<!-- ------------------------ "HOW IT WORKS" SECTION ------------------------ -->
 
-	<section class="section-works">
+	<section id="works" class="section-works">
 		<div class="row">
 			<h2>How it works &mdash; Simple as 1, 2, 3</h2>
 		</div>
 		<div class="row">
-			<div class="col-md-6 col-sm-6 step-box">
+			<div class="col-xs-12 col-sm-6 col-md-6 step-box">
 				<img src="img/howWorks/app-iPhone.png" alt="Phone app" class="app-img">
 			</div>
-			<div class="col-md-6 col-sm-6 step-box">
+
+			<div class="col-sx-12 col-sm-6 col-md-6 step-box">
 				<div class="works-steps">
 					<div>1</div>
 					<p>Choose the subscription plan that best fits your needs and sign up today.</p>
@@ -248,19 +244,17 @@
 					<p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
 				</div>
 
+				<a class="btn-app" href="https://www.apple.com/itunes/charts/free-apps/" ><img src="img/howWorks/download-app.svg" alt="App Store"></a>
 
-			<a href="https://www.apple.com/itunes/charts/free-apps/" class="btn-app"><img src="img/howWorks/download-app.svg" alt="App Store"></a>
-
-			<a href="https://play.google.com/store/apps" class="btn-app"><img src="img/howWorks/download-app-android.png" alt="Play Store"></a>
-
-		</div>
+				<a class="btn-app" href="https://play.google.com/store/apps"><img src="img/howWorks/download-app-android.png" alt="Play Store"></a>
+			</div>
 
 		</div>
 	</section>
 
 	<!-- ------------------------ "CITIES" SECTION ------------------------ -->
 
-	<section class="section-cities">
+	<section id="cities" class="section-cities">
 		<div class="row">
 			<h2>We're currently in these cities</h2>
 		</div>
@@ -382,7 +376,7 @@
 
 	<!-- ------------------------ "SING UP" SECTION ------------------------ -->
 
-	<section class="section-signUp">
+	<section id="signUp" class="section-signUp js--signUp">
 		<div class="row">
 			<h2>Start eating healthy today</h2>
 		</div>
@@ -429,7 +423,7 @@
 				</div>
 			</div>
 
-			<div class="col-md-4 col-sm-4">
+			<div class="col-md-4 col-sm-4 ">
 				<div class="plan-box">
 					<div>
 						<h3>Starter</h3>
@@ -570,7 +564,7 @@
 
 	<footer class="footer">
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-6 col-sm-9">
 				<ul class="footer-nav">
 					<li><a href="#" class="ft-nav">About us</a></li>
 					<li><a href="#" class="ft-nav">BLog</a></li>
@@ -579,7 +573,7 @@
 					<li><a href="#" class="ft-nav">Android app</a></li>
 				</ul>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 col-sm-3">
 				<ul class="social-links">
 					<li><a href="#" class="ico-facebook"><i class="ion-social-facebook"></i></a></li>
 					<li><a href="#" class="ico-twitch"><i class="ion-social-twitch"></i></a></li>
