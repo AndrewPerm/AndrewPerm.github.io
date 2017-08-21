@@ -1,3 +1,4 @@
+@import url(../libs/ionicons/ionicons.min.css);
 @font-face {
   font-family: "roboto-example";
   font-weight: normal;
@@ -1494,16 +1495,18 @@ body {
   transition: all ease 0.3s;
   cursor: pointer; }
   .cordless-screwdriver .section-class-item:hover .icon-wrap {
-    background-color: #90c6c1; }
+    background-color: #90c6c1;
+    border: 3px solid #5b7e7b; }
   .cordless-screwdriver .section-class-item .icon-wrap {
     width: 70px;
     height: 70px;
-    line-height: 70px;
+    vertical-align: middle;
     text-align: center;
     background-color: #5b7e7b;
     display: inline-block;
     -webkit-border-radius: 50%;
             border-radius: 50%;
+    border: 3px solid transparent;
     font-size: 35px;
     color: #ffffff; }
 
@@ -1528,6 +1531,64 @@ body {
 
 .cordless-screwdriver .items-right, .cordless-screwdriver .items-left {
   margin-top: 30px; }
+
+.cordless-screwdriver .characteristics .char-p {
+  font-size: 150%;
+  width: 70%;
+  margin: .7em auto;
+  overflow: hidden;
+  text-align: center;
+  color: #292929; }
+  .cordless-screwdriver .characteristics .char-p:before {
+    color: #5b7e7b;
+    content: "";
+    display: inline-block;
+    width: 50%;
+    margin: 0 .5em 0 -55%;
+    vertical-align: middle;
+    border-bottom: 1.5px solid; }
+  .cordless-screwdriver .characteristics .char-p:after {
+    color: #5b7e7b;
+    content: "";
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+    border-bottom: 1.5px solid;
+    margin: 0 -55% 0 .5em; }
+
+.cordless-screwdriver .characteristics .char, .cordless-screwdriver .characteristics .compl {
+  font-size: 130%;
+  list-style: none;
+  padding: 0; }
+  .cordless-screwdriver .characteristics .char ul, .cordless-screwdriver .characteristics .compl ul {
+    font-size: 90%;
+    list-style: none;
+    padding-left: 40px; }
+    .cordless-screwdriver .characteristics .char ul li, .cordless-screwdriver .characteristics .compl ul li {
+      padding-left: 1.3em;
+      padding-bottom: 1.1em;
+      margin-left: -1.3em; }
+      .cordless-screwdriver .characteristics .char ul li:before, .cordless-screwdriver .characteristics .compl ul li:before {
+        content: "\f363";
+        /* ionicons Unicode */
+        font-family: ionicons;
+        display: inline-block;
+        width: 1.3em;
+        font-size: 120%; }
+  .cordless-screwdriver .characteristics .char li, .cordless-screwdriver .characteristics .compl li {
+    padding-left: 1.3em;
+    padding-bottom: 1.1em;
+    margin-left: -1.3em; }
+    .cordless-screwdriver .characteristics .char li:before, .cordless-screwdriver .characteristics .compl li:before {
+      content: "\f383";
+      /* ionicons Unicode */
+      font-family: ionicons;
+      display: inline-block;
+      width: 1.3em;
+      font-size: 120%; }
+
+.cordless-screwdriver .characteristics .compl li:before {
+  content: "\f359"; }
 
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
