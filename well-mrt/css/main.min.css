@@ -3739,9 +3739,8 @@ body {
     border: 3px solid transparent;
     font-size: 35px;
     color: #ffffff; }
-
-.cordless-screwdriver .text-center {
-  text-align: center; }
+  .cordless-screwdriver .section-class-item .text-center {
+    text-align: center; }
 
 .cordless-screwdriver .items-right .item-ico {
   padding-left: 20px; }
@@ -3758,9 +3757,6 @@ body {
 
 .cordless-screwdriver .text-p {
   margin: 0 auto; }
-
-.cordless-screwdriver .items-right, .cordless-screwdriver .items-left {
-  margin-top: 30px; }
 
 .cordless-screwdriver .characteristics .char-p {
   font-size: 150%;
@@ -3819,6 +3815,100 @@ body {
 
 .cordless-screwdriver .characteristics .compl li:before {
   content: "\f359"; }
+
+/* <!-- ============= "MINI BIKE" SECTION ============= --> */
+.mini-bike {
+  background-color: #ebebeb; }
+  .mini-bike h1 {
+    text-align: center; }
+  .mini-bike .heading-p, .mini-bike .heading-p-question {
+    font-size: 150%;
+    font-weight: 700;
+    margin-top: 0;
+    line-height: 1.45;
+    margin-bottom: 0; }
+  .mini-bike .heading-p-question {
+    text-align: center; }
+    .mini-bike .heading-p-question:after {
+      display: block;
+      height: 2px;
+      background-color: #9c4245;
+      content: " ";
+      width: 150px;
+      margin: 15px auto; }
+  .mini-bike .p-answer {
+    text-align: center;
+    font-size: 135%;
+    margin-bottom: 0; }
+  .mini-bike .text-center {
+    text-align: center; }
+    .mini-bike .text-center .sr-icons {
+      font-size: 200%; }
+  .mini-bike .align-items-center {
+    vertical-align: middle; }
+    .mini-bike .align-items-center div img {
+      text-align: center; }
+    .mini-bike .align-items-center ul {
+      list-style: none;
+      padding: 0; }
+  .mini-bike .section-class-item .text-right {
+    text-align: right; }
+  .mini-bike .section-class-item .text-left {
+    text-align: left; }
+  .mini-bike .mini-bike-parameter .screw-img {
+    text-align: center; }
+  .mini-bike .mini-bike-parameter .text-right {
+    text-align: right; }
+  .mini-bike .mini-bike-parameter .text-left {
+    text-align: left; }
+  .mini-bike .mini-bike-parameter .heading-p {
+    margin: 0 auto; }
+  .mini-bike .mini-bike-parameter .text-p {
+    margin: 0 auto; }
+  .mini-bike .char-p {
+    font-size: 150%;
+    width: 60%;
+    margin: .7em auto;
+    overflow: hidden;
+    text-align: center;
+    font-weight: 300;
+    color: #292929; }
+    .mini-bike .char-p:before {
+      color: #9c4245;
+      content: "";
+      display: inline-block;
+      width: 45%;
+      margin: 0 .5em 0 -55%;
+      vertical-align: middle;
+      border-bottom: 1.5px solid; }
+    .mini-bike .char-p:after {
+      color: #9c4245;
+      content: "";
+      display: inline-block;
+      width: 45%;
+      vertical-align: middle;
+      border-bottom: 1.5px solid;
+      margin: 0 -55% 0 .5em; }
+  .mini-bike .char, .mini-bike .compl {
+    font-size: 120%;
+    line-height: 1.25;
+    list-style: none;
+    padding: 0; }
+    .mini-bike .char ul, .mini-bike .compl ul {
+      font-size: 90%;
+      list-style: none;
+      padding-left: 40px; }
+    .mini-bike .char li, .mini-bike .compl li {
+      padding-left: 1.3em;
+      padding-bottom: 1.1em;
+      margin-left: -1.3em; }
+      .mini-bike .char li:before, .mini-bike .compl li:before {
+        content: "\f383";
+        /* ionicons Unicode */
+        font-family: ionicons;
+        display: inline-block;
+        width: 1.3em;
+        font-size: 120%; }
 
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
