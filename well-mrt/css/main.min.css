@@ -3183,13 +3183,15 @@ hr {
   content: "\f30c"; }
 
 * {
+  -webkir-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+          box-sizing: border-box; }
   *:before, *:after {
+    -webkir-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box; }
+            box-sizing: border-box; }
 
-*::-webkit-input-placeholder {
+*::-webkir-input-placeholder {
   color: #666;
   opacity: 1; }
 
@@ -3632,47 +3634,49 @@ body {
           display: inline-block;
           width: 1.3em;
           font-size: 120%; }
-  .swifty-sharp .characteristics .char-p {
-    font-size: 150%;
-    width: 70%;
-    margin: .7em auto;
-    overflow: hidden;
-    text-align: center;
-    font-weight: 300;
-    color: #292929; }
-    .swifty-sharp .characteristics .char-p:before {
-      color: #b2b007;
-      content: "";
-      display: inline-block;
-      width: 50%;
-      margin: 0 .5em 0 -55%;
-      vertical-align: middle;
-      border-bottom: 1.5px solid; }
-    .swifty-sharp .characteristics .char-p:after {
-      color: #b2b007;
-      content: "";
-      display: inline-block;
-      width: 50%;
-      vertical-align: middle;
-      border-bottom: 1.5px solid;
-      margin: 0 -55% 0 .5em; }
-  .swifty-sharp .characteristics .char, .swifty-sharp .characteristics .compl {
-    font-size: 130%;
-    list-style: none;
-    padding: 0; }
-    .swifty-sharp .characteristics .char li, .swifty-sharp .characteristics .compl li {
-      padding-left: 1.3em;
-      padding-bottom: 1.1em;
-      margin-left: -1.3em; }
-      .swifty-sharp .characteristics .char li:before, .swifty-sharp .characteristics .compl li:before {
-        content: "\f383";
-        /* ionicons Unicode */
-        font-family: ionicons;
+  .swifty-sharp .characteristics {
+    line-height: 1; }
+    .swifty-sharp .characteristics .char-p {
+      font-size: 150%;
+      width: 70%;
+      margin: .7em auto;
+      overflow: hidden;
+      text-align: center;
+      font-weight: 300;
+      color: #292929; }
+      .swifty-sharp .characteristics .char-p:before {
+        color: #b2b007;
+        content: "";
         display: inline-block;
-        width: 1.3em;
-        font-size: 120%; }
-  .swifty-sharp .characteristics .compl li:before {
-    content: "\f359"; }
+        width: 50%;
+        margin: 0 .5em 0 -55%;
+        vertical-align: middle;
+        border-bottom: 1.5px solid; }
+      .swifty-sharp .characteristics .char-p:after {
+        color: #b2b007;
+        content: "";
+        display: inline-block;
+        width: 50%;
+        vertical-align: middle;
+        border-bottom: 1.5px solid;
+        margin: 0 -55% 0 .5em; }
+    .swifty-sharp .characteristics .char, .swifty-sharp .characteristics .compl {
+      font-size: 130%;
+      list-style: none;
+      padding: 0; }
+      .swifty-sharp .characteristics .char li, .swifty-sharp .characteristics .compl li {
+        padding-left: 1.3em;
+        padding-bottom: 1.1em;
+        margin-left: -1.3em; }
+        .swifty-sharp .characteristics .char li:before, .swifty-sharp .characteristics .compl li:before {
+          content: "\f383";
+          /* ionicons Unicode */
+          font-family: ionicons;
+          display: inline-block;
+          width: 1.3em;
+          font-size: 120%; }
+    .swifty-sharp .characteristics .compl li:before {
+      content: "\f359"; }
 
 /* <!-- ============= "CORDLESS SCREWDRIVER" SECTION ============= --> */
 .cordless-screwdriver h1 {
@@ -4025,6 +4029,133 @@ body {
       display: inline-block;
       width: 1.3em;
       font-size: 120%; }
+
+/*<!-- ============= "DUMMY IR CAMERA" SECTION ============= --> */
+.dummy-ir-camera {
+  background-color: #f6f6f6; }
+  .dummy-ir-camera h1 {
+    text-align: center; }
+  .dummy-ir-camera .dummy-ir-intro {
+    text-align: center;
+    font-size: 120%; }
+    .dummy-ir-camera .dummy-ir-intro img {
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      border: 3px solid transparent;
+      -webkit-transition: all ease 0.3s;
+      -o-transition: all ease 0.3s;
+      transition: all ease 0.3s; }
+      .dummy-ir-camera .dummy-ir-intro img:hover {
+        border: 3px solid #403e46; }
+    .dummy-ir-camera .dummy-ir-intro .ir-text-right {
+      text-align: right; }
+    .dummy-ir-camera .dummy-ir-intro .ir-text-left {
+      text-align: left; }
+    .dummy-ir-camera .dummy-ir-intro .ir-text-right, .dummy-ir-camera .dummy-ir-intro .ir-text-left {
+      margin-top: 30px; }
+  .dummy-ir-camera .ir-answer-p p:after {
+    display: block;
+    height: 2px;
+    background-color: #34495e;
+    content: " ";
+    width: 150px;
+    margin: 30px auto 0 auto; }
+  .dummy-ir-camera .ir-answer-p, .dummy-ir-camera .ir-question-p {
+    margin-top: 30px;
+    text-align: center; }
+    .dummy-ir-camera .ir-answer-p p, .dummy-ir-camera .ir-question-p p {
+      margin: 0 auto;
+      font-size: 130%; }
+  .dummy-ir-camera .icon-small {
+    font-size: 300%;
+    margin: 0; }
+  .dummy-ir-camera .img-left img {
+    -webkit-border-top-right-radius: 50%;
+            border-top-right-radius: 50%;
+    -webkit-border-bottom-right-radius: 50%;
+            border-bottom-right-radius: 50%; }
+  .dummy-ir-camera .img-right img {
+    -webkit-border-top-left-radius: 50%;
+            border-top-left-radius: 50%;
+    -webkit-border-bottom-left-radius: 50%;
+            border-bottom-left-radius: 50%; }
+  .dummy-ir-camera .img-right, .dummy-ir-camera .img-left {
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+    cursor: pointer; }
+    .dummy-ir-camera .img-right img:hover, .dummy-ir-camera .img-left img:hover {
+      border: 3px solid #34495e; }
+  .dummy-ir-camera .heading-p {
+    margin: 20px 0 20px 0;
+    font-size: 140%;
+    text-align: center; }
+  .dummy-ir-camera .ir-steps {
+    text-align: center; }
+    .dummy-ir-camera .ir-steps .step-wrapper {
+      width: 70px;
+      height: 70px;
+      line-height: 70px;
+      background-color: #34495e;
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      font-size: 180%;
+      font-weight: 700;
+      color: #ffffff;
+      cursor: pointer;
+      -webkit-transition: all ease 0.3s;
+      -o-transition: all ease 0.3s;
+      transition: all ease 0.3s; }
+      .dummy-ir-camera .ir-steps .step-wrapper:hover {
+        background-color: #2c3e50; }
+    .dummy-ir-camera .ir-steps p {
+      font-size: 125%; }
+    .dummy-ir-camera .ir-steps .ir-summ {
+      margin-top: 0; }
+  .dummy-ir-camera .ir-characteristics {
+    line-height: 1; }
+    .dummy-ir-camera .ir-characteristics .char-p {
+      font-size: 150%;
+      width: 70%;
+      margin: .7em auto;
+      overflow: hidden;
+      text-align: center;
+      font-weight: 300;
+      color: #292929; }
+      .dummy-ir-camera .ir-characteristics .char-p:before {
+        color: #34495e;
+        content: "";
+        display: inline-block;
+        width: 50%;
+        margin: 0 .5em 0 -55%;
+        vertical-align: middle;
+        border-bottom: 1.5px solid; }
+      .dummy-ir-camera .ir-characteristics .char-p:after {
+        color: #34495e;
+        content: "";
+        display: inline-block;
+        width: 50%;
+        vertical-align: middle;
+        border-bottom: 1.5px solid;
+        margin: 0 -55% 0 .5em; }
+    .dummy-ir-camera .ir-characteristics .char, .dummy-ir-camera .ir-characteristics .compl {
+      font-size: 120%;
+      list-style: none;
+      padding: 0; }
+      .dummy-ir-camera .ir-characteristics .char li, .dummy-ir-camera .ir-characteristics .compl li {
+        padding-left: 1.3em;
+        padding-bottom: 1.1em;
+        margin-left: -1.3em; }
+        .dummy-ir-camera .ir-characteristics .char li:before, .dummy-ir-camera .ir-characteristics .compl li:before {
+          content: "\f383";
+          /* ionicons Unicode */
+          font-family: ionicons;
+          display: inline-block;
+          width: 1.3em;
+          font-size: 120%; }
 
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
