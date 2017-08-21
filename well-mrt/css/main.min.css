@@ -3355,6 +3355,8 @@ body {
         display: inline-block;
         width: 1.3em;
         font-size: 120%; }
+  .dual-bike .bike-char .compl li:before {
+    content: "\f359"; }
 
 /* <!-- ============= "CHERRY PITTER" SECTION ============= --> */
 .cherry-pitter h1 {
@@ -3909,6 +3911,17 @@ body {
         display: inline-block;
         width: 1.3em;
         font-size: 120%; }
+  .mini-bike .service-box {
+    border: 2px solid transparent;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+    padding: 5px;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transition: all ease 0.3s; }
+    .mini-bike .service-box:hover {
+      border: 2px solid #9c4245;
+      background-color: #e2e2e2; }
 
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
