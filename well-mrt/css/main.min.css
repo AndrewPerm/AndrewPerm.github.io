@@ -4157,6 +4157,130 @@ body {
           width: 1.3em;
           font-size: 120%; }
 
+/* <!-- ============= "Steam Power" SECTION ============= --> */
+.steam-power .heading {
+  text-align: center; }
+  .steam-power .heading img {
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+    border: 3px solid #2ecc71;
+    -webkit-transform: scale(0.92);
+        -ms-transform: scale(0.92);
+            transform: scale(0.92); }
+    .steam-power .heading img:hover {
+      border: 3px dashed #2ecc71;
+      -webkit-transform: scale(1.04);
+          -ms-transform: scale(1.04);
+              transform: scale(1.04); }
+
+.steam-power .icon-small {
+  font-size: 300%; }
+
+.steam-power .steam-add-info {
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+  font-size: 110%; }
+
+.steam-power .steam-border {
+  border: 2px solid #26a75d;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  padding: 5px;
+  cursor: pointer; }
+  .steam-power .steam-border:hover {
+    background-color: #30d275; }
+
+.steam-power .steam-steps {
+  text-align: center; }
+  .steam-power .steam-steps .step-wrapper {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background-color: #26a75d;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    font-size: 180%;
+    font-weight: 700;
+    color: #ffffff;
+    cursor: pointer;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transition: all ease 0.3s; }
+    .steam-power .steam-steps .step-wrapper:hover {
+      background-color: #26a75d; }
+  .steam-power .steam-steps .text-p {
+    font-size: 125%; }
+
+.steam-power .heading-p {
+  font-size: 140%;
+  margin-bottom: 40px;
+  text-align: center; }
+
+.steam-power .block-box, .steam-power .block-text-2 {
+  text-align: center; }
+
+.steam-power .block-box div {
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s; }
+  .steam-power .block-box div:hover {
+    border: 3px solid #26a75d;
+    padding: 10px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px; }
+
+.steam-power .steam-characteristics {
+  line-height: 1; }
+  .steam-power .steam-characteristics .char-p {
+    font-size: 150%;
+    width: 70%;
+    margin: .7em auto;
+    overflow: hidden;
+    text-align: center;
+    font-weight: 300;
+    color: #292929; }
+    .steam-power .steam-characteristics .char-p:before {
+      color: #26a75d;
+      content: "";
+      display: inline-block;
+      width: 50%;
+      margin: 0 .5em 0 -55%;
+      vertical-align: middle;
+      border-bottom: 1.5px solid; }
+    .steam-power .steam-characteristics .char-p:after {
+      color: #26a75d;
+      content: "";
+      display: inline-block;
+      width: 50%;
+      vertical-align: middle;
+      border-bottom: 1.5px solid;
+      margin: 0 -55% 0 .5em; }
+  .steam-power .steam-characteristics .char, .steam-power .steam-characteristics .compl {
+    font-size: 130%;
+    list-style: none;
+    padding: 0; }
+    .steam-power .steam-characteristics .char li, .steam-power .steam-characteristics .compl li {
+      padding-left: 1.3em;
+      padding-bottom: 1.1em;
+      margin-left: -1.3em; }
+      .steam-power .steam-characteristics .char li:before, .steam-power .steam-characteristics .compl li:before {
+        content: "\f383";
+        /* ionicons Unicode */
+        font-family: ionicons;
+        display: inline-block;
+        width: 1.3em;
+        font-size: 120%; }
+  .steam-power .steam-characteristics .compl li:before {
+    content: "\f359"; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
