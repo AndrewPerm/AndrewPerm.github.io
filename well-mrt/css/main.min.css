@@ -3219,6 +3219,8 @@ html, body {
   height: 100%; }
 
 body {
+  margin: 0;
+  padding: 0;
   font-size: 16px;
   min-width: 320px;
   position: relative;
@@ -3313,6 +3315,9 @@ body {
   padding: 15px;
   -webkit-border-radius: 10px;
           border-radius: 10px; }
+  #myBtn a {
+    text-decoration: none;
+    color: #ffffff; }
   #myBtn:hover {
     background-color: #555; }
 
@@ -4588,6 +4593,121 @@ body {
         font-size: 120%; }
   .ham-maker-beloboka .ham-characteristics .compl li:before {
     content: "\f359"; }
+
+/* <!-- ============= "HAIR STRAIGHTENER" SECTION ============= --> */
+.hair-straightener {
+  background-color: #f6f6f6; }
+  .hair-straightener h1 {
+    text-align: center; }
+  .hair-straightener .hair-straightener-about {
+    margin: 40px auto; }
+  .hair-straightener .heading-p {
+    font-size: 120%;
+    font-weight: 500; }
+  .hair-straightener span {
+    font-weight: 500; }
+  .hair-straightener .hair-str-steps {
+    text-align: center; }
+    .hair-straightener .hair-str-steps .step-wrapper {
+      width: 70px;
+      height: 70px;
+      line-height: 70px;
+      background-color: #b47f95;
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      font-size: 180%;
+      font-weight: 700;
+      color: #ffffff;
+      cursor: pointer;
+      -webkit-transition: all ease 0.3s;
+      -o-transition: all ease 0.3s;
+      transition: all ease 0.3s; }
+      .hair-straightener .hair-str-steps .step-wrapper:hover {
+        background-color: #e4a0bc; }
+    .hair-straightener .hair-str-steps .text-p {
+      font-size: 125%; }
+    .hair-straightener .hair-str-steps .heading-steps-p {
+      margin-bottom: 40px; }
+      .hair-straightener .hair-str-steps .heading-steps-p:after {
+        display: block;
+        height: 2px;
+        background-color: #b47f95;
+        content: " ";
+        width: 150px;
+        margin: 30px auto 0 auto; }
+  .hair-straightener .hair-str-advantages {
+    text-align: center; }
+    .hair-straightener .hair-str-advantages img {
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      border: 3px solid transparent;
+      -webkit-transition: all ease 0.3s;
+      -o-transition: all ease 0.3s;
+      transition: all ease 0.3s;
+      cursor: pointer; }
+      .hair-straightener .hair-str-advantages img:hover {
+        border: 3px solid #b47f95; }
+    .hair-straightener .hair-str-advantages .heading-p-adv {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 140%;
+      font-weight: 500; }
+      .hair-straightener .hair-str-advantages .heading-p-adv:after {
+        display: block;
+        height: 2px;
+        background-color: #b47f95;
+        content: " ";
+        width: 150px;
+        margin: 30px auto 0 auto; }
+    .hair-straightener .hair-str-advantages .icon-small {
+      font-size: 300%;
+      color: #422f37; }
+  .hair-straightener .hair-str-characteristics {
+    line-height: 1; }
+    .hair-straightener .hair-str-characteristics .char-p {
+      font-size: 150%;
+      width: 70%;
+      margin: .7em auto;
+      overflow: hidden;
+      text-align: center;
+      font-weight: 300;
+      color: #292929; }
+      .hair-straightener .hair-str-characteristics .char-p:before {
+        color: #b47f95;
+        content: "";
+        display: inline-block;
+        width: 50%;
+        margin: 0 .5em 0 -55%;
+        vertical-align: middle;
+        border-bottom: 1.5px solid; }
+      .hair-straightener .hair-str-characteristics .char-p:after {
+        color: #b47f95;
+        content: "";
+        display: inline-block;
+        width: 50%;
+        vertical-align: middle;
+        border-bottom: 1.5px solid;
+        margin: 0 -55% 0 .5em; }
+    .hair-straightener .hair-str-characteristics .char, .hair-straightener .hair-str-characteristics .compl {
+      font-size: 130%;
+      list-style: none;
+      padding: 0; }
+      .hair-straightener .hair-str-characteristics .char li, .hair-straightener .hair-str-characteristics .compl li {
+        padding-left: 1.3em;
+        padding-bottom: 1.1em;
+        margin-left: -1.3em; }
+        .hair-straightener .hair-str-characteristics .char li:before, .hair-straightener .hair-str-characteristics .compl li:before {
+          content: "\f383";
+          /* ionicons Unicode */
+          font-family: ionicons;
+          display: inline-block;
+          width: 1.3em;
+          font-size: 120%; }
+    .hair-straightener .hair-str-characteristics .compl li:before {
+      content: "\f359"; }
 
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
