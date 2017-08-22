@@ -3224,7 +3224,8 @@ body {
   position: relative;
   line-height: 1.75;
   overflow-x: hidden;
-  opacity: 1; }
+  opacity: 1;
+  z-index: 1; }
 
 .img-responsive {
   display: block;
@@ -3234,6 +3235,86 @@ body {
 .container {
   max-width: 1100px;
   margin-bottom: 50px; }
+
+.nav-main {
+  position: relative;
+  z-index: 9999;
+  width: 100%;
+  color: #ffffff;
+  height: 70px;
+  background-color: #222; }
+  .nav-main .logo {
+    float: left;
+    height: 40px;
+    padding: 15px 30px;
+    font-size: 150%;
+    line-height: 40px;
+    color: #b10000; }
+  .nav-main > ul {
+    margin: 0 5% 0 0;
+    padding: 0;
+    float: right;
+    list-style: none; }
+    .nav-main > ul > li {
+      float: left; }
+
+.nav-item {
+  display: inline-block;
+  padding: 15px 20px;
+  height: 70px;
+  line-height: 40px;
+  color: #e6e6e6;
+  text-decoration: none;
+  font-size: 130%; }
+  .nav-item:hover {
+    color: #c0392b;
+    background-color: #303030; }
+  .nav-item:focus ~ .nav-content {
+    -webkit-transition: all ease 0.6s;
+    -o-transition: all ease 0.6s;
+    transition: all ease 0.6s;
+    max-height: 400px;
+    z-index: 20; }
+
+.nav-content {
+  max-height: 0;
+  position: absolute;
+  top: 70px;
+  background-color: #222;
+  color: #e6e6e6;
+  z-index: -1; }
+  .nav-content a {
+    color: #ffffff;
+    text-decoration: none; }
+    .nav-content a:hover {
+      text-decoration: underline; }
+
+.nav-sub {
+  padding: 20px; }
+  .nav-sub ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; }
+    .nav-sub ul li a {
+      display: inline-block;
+      padding: 5px 0; }
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #c81b22;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px; }
+  #myBtn:hover {
+    background-color: #555; }
 
 /* <!-- ============= "DAUL BIKE" SECTION ============= --> */
 .dual-bike {
@@ -4535,7 +4616,17 @@ body {
     margin-top: 0px;
     float: left; }
   .swifty-sharp .block-box {
-    text-align: center; } }
+    text-align: center; }
+  /* -- nav -- */
+  .dropdown-menu-large {
+    margin-left: 0;
+    margin-right: 0; }
+    .dropdown-menu-large > li {
+      margin-bottom: 30px; }
+      .dropdown-menu-large > li:last-child {
+        margin-bottom: 0; }
+    .dropdown-menu-large .dropdown-header {
+      padding: 3px 15px !important; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
