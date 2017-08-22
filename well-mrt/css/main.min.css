@@ -4372,6 +4372,142 @@ body {
           width: 1.3em;
           font-size: 120%; }
 
+/* <!-- ============= "HAM MAKER BELOBOKA" SECTION ============= --> */
+.ham-maker-beloboka h1 {
+  text-align: center; }
+
+.ham-maker-beloboka .ham-heading p {
+  font-size: 120%; }
+  .ham-maker-beloboka .ham-heading p span {
+    font-weight: 500; }
+
+.ham-maker-beloboka .ham-stars {
+  text-align: center; }
+  .ham-maker-beloboka .ham-stars .border-box {
+    border: 3px solid transparent;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+    cursor: pointer; }
+    .ham-maker-beloboka .ham-stars .border-box:hover {
+      border: 3px solid #161616;
+      -webkit-transform: scale(1.02);
+          -ms-transform: scale(1.02);
+              transform: scale(1.02); }
+  .ham-maker-beloboka .ham-stars .icon-small {
+    font-size: 300%;
+    margin: 0;
+    color: #35354c; }
+
+.ham-maker-beloboka .heading-p {
+  font-size: 120%;
+  font-weight: 500;
+  margin: 20px auto;
+  text-align: center; }
+
+.ham-maker-beloboka .recipe h2 {
+  text-align: center; }
+
+.ham-maker-beloboka .list {
+  list-style: none;
+  width: 600px;
+  max-width: 90%;
+  float: left; }
+  .ham-maker-beloboka .list .item {
+    clear: both;
+    counter-increment: list;
+    padding-bottom: 4rem;
+    font-size: 100%;
+    line-height: 1.375;
+    position: relative;
+    display: inline-block; }
+    .ham-maker-beloboka .list .item:before {
+      font-size: 290%;
+      content: counter(list);
+      width: 70px;
+      height: 70px;
+      float: left;
+      margin: 0 1.5rem 0.75rem 0;
+      color: #fdfdfd;
+      background: #ed4264 -webkit-gradient(linear, left top, right bottom, color-stop(25%, #ED4264), to(#FFEDBC));
+      background: #ed4264 -webkit-linear-gradient(top left, #ED4264 25%, #FFEDBC);
+      background: #ed4264 -o-linear-gradient(top left, #ED4264 25%, #FFEDBC);
+      background: #ed4264 linear-gradient(to bottom right, #ED4264 25%, #FFEDBC);
+      text-shadow: 0 0 2px #ED4264;
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      display: -webkit-inline-box;
+      display: -webkit-inline-flex;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-shape-outside: ellipse();
+              shape-outside: ellipse();
+      z-index: 20; }
+    .ham-maker-beloboka .list .item:after {
+      width: 37px;
+      height: 37px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "";
+      background: #ED4264;
+      z-index: -1;
+      border-top: 3px; }
+
+.ham-maker-beloboka .ham-characteristics {
+  line-height: 1; }
+  .ham-maker-beloboka .ham-characteristics .char-p {
+    font-size: 150%;
+    width: 70%;
+    margin: .7em auto;
+    overflow: hidden;
+    text-align: center;
+    font-weight: 300;
+    color: #292929; }
+    .ham-maker-beloboka .ham-characteristics .char-p:before {
+      color: #202d3a;
+      content: "";
+      display: inline-block;
+      width: 50%;
+      margin: 0 .5em 0 -55%;
+      vertical-align: middle;
+      border-bottom: 1.5px solid; }
+    .ham-maker-beloboka .ham-characteristics .char-p:after {
+      color: #202d3a;
+      content: "";
+      display: inline-block;
+      width: 50%;
+      vertical-align: middle;
+      border-bottom: 1.5px solid;
+      margin: 0 -55% 0 .5em; }
+  .ham-maker-beloboka .ham-characteristics .char, .ham-maker-beloboka .ham-characteristics .compl {
+    font-size: 130%;
+    list-style: none;
+    padding: 0; }
+    .ham-maker-beloboka .ham-characteristics .char li, .ham-maker-beloboka .ham-characteristics .compl li {
+      padding-left: 1.3em;
+      padding-bottom: 1.1em;
+      margin-left: -1.3em; }
+      .ham-maker-beloboka .ham-characteristics .char li:before, .ham-maker-beloboka .ham-characteristics .compl li:before {
+        content: "\f383";
+        /* ionicons Unicode */
+        font-family: ionicons;
+        display: inline-block;
+        width: 1.3em;
+        font-size: 120%; }
+  .ham-maker-beloboka .ham-characteristics .compl li:before {
+    content: "\f359"; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
