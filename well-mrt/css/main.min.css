@@ -5058,6 +5058,40 @@ body {
     .rovus-spray-mop .mop-characteristics .compl li:before {
       content: "\f359"; }
 
+/* <!-- ============= "SNUGGIE BLANKET" SECTION ============= --> */
+.snuggie-blanket h1 {
+  text-align: center; }
+
+.snuggie-blanket .heading-p {
+  margin: 40px 0;
+  font-size: 120%;
+  text-align: center;
+  font-weight: 600; }
+
+.snuggie-blanket .text-left {
+  text-align: left; }
+
+.snuggie-blanket .text-right {
+  text-align: right; }
+
+.snuggie-blanket .text-left, .snuggie-blanket .text-right {
+  font-size: 110%; }
+
+.snuggie-blanket .blanket-img {
+  border: 3px solid transparent;
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s; }
+  .snuggie-blanket .blanket-img:hover {
+    border: 3px solid #B71C1C;
+    -webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+            transform: scale(1.03); }
+
+.snuggie-blanket .blanket-concl span {
+  color: #5b0e0e;
+  font-weight: 500; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
