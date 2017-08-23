@@ -4892,6 +4892,116 @@ body {
           width: 1.3em;
           font-size: 120%; }
 
+/* <!-- ============= "MICRO TOUCH SWITCHBLADE" SECTION ============= --> */
+.micro-touch-switchblade h1 {
+  text-align: center; }
+
+.micro-touch-switchblade .switchblade-about p {
+  font-size: 120%; }
+
+.micro-touch-switchblade .switchblade-about span {
+  color: #973110; }
+
+.micro-touch-switchblade .switchblade-about .heading-p-swb {
+  font-size: 130%;
+  text-align: center;
+  font-weight: 600; }
+  .micro-touch-switchblade .switchblade-about .heading-p-swb:after {
+    display: block;
+    height: 2px;
+    background-color: #E64A19;
+    content: " ";
+    width: 150px;
+    margin: 20px auto 0 auto; }
+
+.micro-touch-switchblade .section-class-item {
+  margin-bottom: 30px;
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+  cursor: pointer; }
+  .micro-touch-switchblade .section-class-item:hover .icon-wrap {
+    background-color: #c43f15;
+    border: 3px solid #a73612; }
+  .micro-touch-switchblade .section-class-item .icon-wrap {
+    width: 70px;
+    height: 70px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #E64A19;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    border: 3px solid transparent;
+    font-size: 35px;
+    color: #ffffff; }
+  .micro-touch-switchblade .section-class-item .text-p {
+    padding-left: 15px;
+    margin-top: 0; }
+
+.micro-touch-switchblade .item-text, .micro-touch-switchblade .item-ico {
+  display: table-cell;
+  vertical-align: top; }
+
+.micro-touch-switchblade .items-left, .micro-touch-switchblade .items-right {
+  margin-top: 40px; }
+
+.micro-touch-switchblade .items-left {
+  float: left; }
+
+.micro-touch-switchblade .items-right {
+  float: right; }
+
+.micro-touch-switchblade .items-bottom {
+  margin-top: 0; }
+
+.micro-touch-switchblade .und-heading-p {
+  text-align: center;
+  font-size: 120%;
+  font-weight: 500; }
+
+.micro-touch-switchblade .switchblade-characteristics {
+  line-height: 1; }
+  .micro-touch-switchblade .switchblade-characteristics .char-p {
+    font-size: 150%;
+    width: 70%;
+    margin: .7em auto;
+    overflow: hidden;
+    text-align: center;
+    font-weight: 300;
+    color: #292929; }
+    .micro-touch-switchblade .switchblade-characteristics .char-p:before {
+      color: #E64A19;
+      content: "";
+      display: inline-block;
+      width: 50%;
+      margin: 0 .5em 0 -55%;
+      vertical-align: middle;
+      border-bottom: 1.5px solid; }
+    .micro-touch-switchblade .switchblade-characteristics .char-p:after {
+      color: #E64A19;
+      content: "";
+      display: inline-block;
+      width: 50%;
+      vertical-align: middle;
+      border-bottom: 1.5px solid;
+      margin: 0 -55% 0 .5em; }
+  .micro-touch-switchblade .switchblade-characteristics .char {
+    font-size: 110%;
+    list-style: none;
+    padding: 0; }
+    .micro-touch-switchblade .switchblade-characteristics .char li {
+      padding-left: 1.3em;
+      padding-bottom: 1.1em;
+      margin-left: -1.3em; }
+      .micro-touch-switchblade .switchblade-characteristics .char li:before {
+        content: "\f383";
+        /* ionicons Unicode */
+        font-family: ionicons;
+        display: inline-block;
+        width: 1.3em;
+        font-size: 120%; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
