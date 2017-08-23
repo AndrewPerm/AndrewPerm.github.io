@@ -4791,6 +4791,107 @@ body {
         width: 1.3em;
         font-size: 120%; }
 
+/* <!-- ============= "GARDEN GENIE GLOVES" SECTION ============= --> */
+.garden-genie-gloves {
+  background-color: #f6f6f6; }
+  .garden-genie-gloves h1, .garden-genie-gloves .genie-about {
+    text-align: center; }
+  .garden-genie-gloves .icon-small, .garden-genie-gloves .icon-small-mark {
+    font-size: 300%; }
+  .garden-genie-gloves .icon-small-mark {
+    color: #3c5351; }
+  .garden-genie-gloves .genie-about {
+    font-size: 130%; }
+    .garden-genie-gloves .genie-about p {
+      margin-top: 30px; }
+    .garden-genie-gloves .genie-about img {
+      -webkit-border-radius: 50%;
+              border-radius: 50%; }
+  .garden-genie-gloves .genie-plus {
+    text-align: center; }
+    .garden-genie-gloves .genie-plus p {
+      font-size: 120%; }
+    .garden-genie-gloves .genie-plus span {
+      width: 90px;
+      height: 90px;
+      vertical-align: middle;
+      text-align: center;
+      background-color: #5b7e7b;
+      display: inline-block;
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      border: 3px solid transparent;
+      color: #e7e7e7; }
+  .garden-genie-gloves .heading-p-func {
+    font-size: 140%;
+    text-align: center;
+    font-weight: 600; }
+    .garden-genie-gloves .heading-p-func:after {
+      display: block;
+      height: 2px;
+      background-color: #5b7e7b;
+      content: " ";
+      width: 150px;
+      margin: 20px auto 0 auto; }
+  .garden-genie-gloves .genie-func span {
+    color: #3c5351; }
+  .garden-genie-gloves .genie-func .genie-first-p {
+    margin-top: 0; }
+  .garden-genie-gloves .genie-func .heading-p-genie {
+    font-size: 130%;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 40px; }
+  .garden-genie-gloves .genie-func .text-center {
+    text-align: center; }
+  .garden-genie-gloves .genie-conclusion {
+    margin-top: 40px; }
+    .garden-genie-gloves .genie-conclusion .text-center {
+      text-align: center;
+      font-weight: 500;
+      margin-bottom: 40px; }
+  .garden-genie-gloves .genie-characteristics {
+    line-height: 1; }
+    .garden-genie-gloves .genie-characteristics .char-p {
+      font-size: 150%;
+      width: 70%;
+      margin: .7em auto;
+      overflow: hidden;
+      text-align: center;
+      font-weight: 300;
+      color: #292929; }
+      .garden-genie-gloves .genie-characteristics .char-p:before {
+        color: #5b7e7b;
+        content: "";
+        display: inline-block;
+        width: 50%;
+        margin: 0 .5em 0 -55%;
+        vertical-align: middle;
+        border-bottom: 1.5px solid; }
+      .garden-genie-gloves .genie-characteristics .char-p:after {
+        color: #5b7e7b;
+        content: "";
+        display: inline-block;
+        width: 50%;
+        vertical-align: middle;
+        border-bottom: 1.5px solid;
+        margin: 0 -55% 0 .5em; }
+    .garden-genie-gloves .genie-characteristics .char {
+      font-size: 110%;
+      list-style: none;
+      padding: 0; }
+      .garden-genie-gloves .genie-characteristics .char li {
+        padding-left: 1.3em;
+        padding-bottom: 1.1em;
+        margin-left: -1.3em; }
+        .garden-genie-gloves .genie-characteristics .char li:before {
+          content: "\f383";
+          /* ionicons Unicode */
+          font-family: ionicons;
+          display: inline-block;
+          width: 1.3em;
+          font-size: 120%; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
