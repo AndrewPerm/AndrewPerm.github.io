@@ -4709,6 +4709,88 @@ body {
     .hair-straightener .hair-str-characteristics .compl li:before {
       content: "\f359"; }
 
+/* <!-- ============= "SNAP'N GRIP" SECTION ============= --> */
+.snap-n-grip h1, .snap-n-grip .heading-p-addinfo {
+  text-align: center; }
+
+.snap-n-grip .snap-n-about {
+  margin-bottom: 0; }
+  .snap-n-grip .snap-n-about .heading-p-about {
+    font-size: 120%;
+    font-weight: 500;
+    margin-top: 0; }
+
+.snap-n-grip .heading-p-addinfo {
+  font-size: 130%;
+  font-weight: 600; }
+  .snap-n-grip .heading-p-addinfo:after {
+    display: block;
+    height: 2px;
+    background-color: #9c001e;
+    content: " ";
+    width: 150px;
+    margin: 20px auto 0 auto; }
+
+.snap-n-grip .snap-stars {
+  text-align: center; }
+  .snap-n-grip .snap-stars div {
+    border: 3px solid transparent;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+    cursor: pointer; }
+    .snap-n-grip .snap-stars div:hover {
+      border: 3px solid red;
+      -webkit-border-radius: 5px;
+              border-radius: 5px; }
+  .snap-n-grip .snap-stars .icon-small {
+    font-size: 300%; }
+
+.snap-n-grip .snap-first-p {
+  margin-top: 0; }
+
+.snap-n-grip .snap-characteristics {
+  line-height: 1; }
+  .snap-n-grip .snap-characteristics .char-p {
+    font-size: 150%;
+    width: 70%;
+    margin: .7em auto;
+    overflow: hidden;
+    text-align: center;
+    font-weight: 300;
+    color: #292929; }
+    .snap-n-grip .snap-characteristics .char-p:before {
+      color: #9c001e;
+      content: "";
+      display: inline-block;
+      width: 50%;
+      margin: 0 .5em 0 -55%;
+      vertical-align: middle;
+      border-bottom: 1.5px solid; }
+    .snap-n-grip .snap-characteristics .char-p:after {
+      color: #9c001e;
+      content: "";
+      display: inline-block;
+      width: 50%;
+      vertical-align: middle;
+      border-bottom: 1.5px solid;
+      margin: 0 -55% 0 .5em; }
+  .snap-n-grip .snap-characteristics .char {
+    font-size: 130%;
+    list-style: none;
+    padding: 0; }
+    .snap-n-grip .snap-characteristics .char li {
+      padding-left: 1.3em;
+      padding-bottom: 1.1em;
+      margin-left: -1.3em; }
+      .snap-n-grip .snap-characteristics .char li:before {
+        content: "\f383";
+        /* ionicons Unicode */
+        font-family: ionicons;
+        display: inline-block;
+        width: 1.3em;
+        font-size: 120%; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
