@@ -5002,6 +5002,62 @@ body {
         width: 1.3em;
         font-size: 120%; }
 
+/*<!-- ============= "ROVUS SPRAY MOP" SECTION ============= -->*/
+.rovus-spray-mop {
+  background-color: #f6f6f6; }
+  .rovus-spray-mop h1 {
+    text-align: center; }
+  .rovus-spray-mop .mop-text-block {
+    margin: 30px 0; }
+  .rovus-spray-mop .text-center {
+    text-align: center; }
+    .rovus-spray-mop .text-center .icon-small {
+      font-size: 300%;
+      color: #2ecc71; }
+  .rovus-spray-mop .mop-characteristics {
+    line-height: 1; }
+    .rovus-spray-mop .mop-characteristics .char-p {
+      font-size: 150%;
+      width: 70%;
+      margin: .7em auto;
+      overflow: hidden;
+      text-align: center;
+      font-weight: 300;
+      color: #292929; }
+      .rovus-spray-mop .mop-characteristics .char-p:before {
+        color: #2ecc71;
+        content: "";
+        display: inline-block;
+        width: 50%;
+        margin: 0 .5em 0 -55%;
+        vertical-align: middle;
+        border-bottom: 1.5px solid; }
+      .rovus-spray-mop .mop-characteristics .char-p:after {
+        color: #2ecc71;
+        content: "";
+        display: inline-block;
+        width: 50%;
+        vertical-align: middle;
+        border-bottom: 1.5px solid;
+        margin: 0 -55% 0 .5em; }
+    .rovus-spray-mop .mop-characteristics .char, .rovus-spray-mop .mop-characteristics .compl {
+      font-size: 110%;
+      list-style: none;
+      padding: 0; }
+      .rovus-spray-mop .mop-characteristics .char li, .rovus-spray-mop .mop-characteristics .compl li {
+        padding-left: 1.3em;
+        padding-bottom: 1.1em;
+        margin-left: -1.3em; }
+        .rovus-spray-mop .mop-characteristics .char li:before, .rovus-spray-mop .mop-characteristics .compl li:before {
+          content: "\f383";
+          /* ionicons Unicode */
+          font-family: ionicons;
+          display: inline-block;
+          width: 1.3em;
+          font-size: 120%; }
+    .rovus-spray-mop .mop-characteristics .compl li:before {
+      content: "\f359"; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
