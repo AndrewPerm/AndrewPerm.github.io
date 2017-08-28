@@ -5213,6 +5213,83 @@ body {
         width: 1.3em;
         font-size: 120%; }
 
+/* <!-- ============= "Table-ware Supretto" SECTION ============= --> */
+.table-ware-supretto {
+  background-color: #f6f6f6; }
+  .table-ware-supretto h1 {
+    text-align: center;
+    border-bottom: 3px solid #cfb4a8;
+    border-top: 3px solid #cfb4a8; }
+  .table-ware-supretto span {
+    font-weight: 500;
+    color: #8c7972; }
+  .table-ware-supretto .heading-p {
+    text-align: center;
+    font-size: 120%;
+    font-weight: 500;
+    text-align: center; }
+  .table-ware-supretto .table-ware-supr-characteristics {
+    line-height: 1; }
+    .table-ware-supretto .table-ware-supr-characteristics .text-center {
+      font-size: 110%;
+      text-align: center;
+      line-height: 1.35; }
+      .table-ware-supretto .table-ware-supr-characteristics .text-center img.center {
+        -webkit-border-radius: 50%;
+                border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+        border: 3px solid transparent;
+        -webkit-transition: all ease 0.3s;
+        -o-transition: all ease 0.3s;
+        transition: all ease 0.3s;
+        cursor: pointer; }
+        .table-ware-supretto .table-ware-supr-characteristics .text-center img.center:hover {
+          border: 3px solid #cfb4a8; }
+    .table-ware-supretto .table-ware-supr-characteristics .char-p {
+      font-size: 150%;
+      width: 70%;
+      margin: .7em auto;
+      overflow: hidden;
+      text-align: center;
+      font-weight: 300;
+      color: #292929; }
+      .table-ware-supretto .table-ware-supr-characteristics .char-p:before {
+        color: #cfb4a8;
+        content: "";
+        display: inline-block;
+        width: 50%;
+        margin: 0 .5em 0 -55%;
+        vertical-align: middle;
+        border-bottom: 1.5px solid; }
+      .table-ware-supretto .table-ware-supr-characteristics .char-p:after {
+        color: #bca399;
+        content: "";
+        display: inline-block;
+        width: 50%;
+        vertical-align: middle;
+        border-bottom: 1.5px solid;
+        margin: 0 -55% 0 .5em; }
+    .table-ware-supretto .table-ware-supr-characteristics .char, .table-ware-supretto .table-ware-supr-characteristics .compl {
+      font-size: 110%;
+      list-style: none;
+      padding: 0; }
+      .table-ware-supretto .table-ware-supr-characteristics .char li, .table-ware-supretto .table-ware-supr-characteristics .compl li {
+        padding-left: 1.3em;
+        padding-bottom: 1.1em;
+        margin-left: -1.3em; }
+        .table-ware-supretto .table-ware-supr-characteristics .char li:before, .table-ware-supretto .table-ware-supr-characteristics .compl li:before {
+          color: #bda499;
+          content: "\f383";
+          /* ionicons Unicode */
+          font-family: ionicons;
+          display: inline-block;
+          width: 1.3em;
+          font-size: 120%; }
+    .table-ware-supretto .table-ware-supr-characteristics .compl li:before {
+      color: #bca399;
+      content: "\f359"; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
