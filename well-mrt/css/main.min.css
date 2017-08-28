@@ -5405,6 +5405,81 @@ body {
         width: 1.3em;
         font-size: 120%; }
 
+/* <!-- ============= "МАССАЖЕР ДЛЯ СТОП 'БЛАЖЕНСТВО' " SECTION ============= --> */
+.massager-bliss {
+  background-color: #f6f6f6; }
+  .massager-bliss h1 {
+    text-align: center;
+    border-bottom: 3px solid #2980b9;
+    border-top: 3px solid #2980b9; }
+  .massager-bliss .heading-p {
+    text-align: center;
+    font-size: 120%;
+    font-weight: 500; }
+  .massager-bliss img.right {
+    float: right; }
+  .massager-bliss img.center {
+    display: block;
+    margin: 0 auto; }
+  .massager-bliss .add-info {
+    margin-top: 30px;
+    text-align: center; }
+    .massager-bliss .add-info .icon-small {
+      font-size: 350%;
+      color: #1d1d1d;
+      margin: 0; }
+    .massager-bliss .add-info p {
+      margin: 0; }
+  .massager-bliss span.red {
+    color: #be0000; }
+  .massager-bliss span.black {
+    color: #000; }
+  .massager-bliss .massager-characteristics {
+    line-height: 1; }
+    .massager-bliss .massager-characteristics .char-p {
+      font-size: 150%;
+      width: 70%;
+      margin: .7em auto;
+      overflow: hidden;
+      text-align: center;
+      font-weight: 300;
+      color: #292929; }
+      .massager-bliss .massager-characteristics .char-p:before {
+        color: #2980b9;
+        content: "";
+        display: inline-block;
+        width: 50%;
+        margin: 0 .5em 0 -55%;
+        vertical-align: middle;
+        border-bottom: 1.5px solid; }
+      .massager-bliss .massager-characteristics .char-p:after {
+        color: #2980b9;
+        content: "";
+        display: inline-block;
+        width: 50%;
+        vertical-align: middle;
+        border-bottom: 1.5px solid;
+        margin: 0 -55% 0 .5em; }
+    .massager-bliss .massager-characteristics .char, .massager-bliss .massager-characteristics .compl {
+      font-size: 110%;
+      list-style: none;
+      padding: 0; }
+      .massager-bliss .massager-characteristics .char li, .massager-bliss .massager-characteristics .compl li {
+        padding-left: 1.3em;
+        padding-bottom: 1.1em;
+        margin-left: -1.3em; }
+        .massager-bliss .massager-characteristics .char li:before, .massager-bliss .massager-characteristics .compl li:before {
+          color: #2980b9;
+          content: "\f383";
+          /* ionicons Unicode */
+          font-family: ionicons;
+          display: inline-block;
+          width: 1.3em;
+          font-size: 120%; }
+    .massager-bliss .massager-characteristics .compl li:before {
+      color: #2980b9;
+      content: "\f359"; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
