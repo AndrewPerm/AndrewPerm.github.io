@@ -61,9 +61,9 @@
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<h2>Самый экономный переносной <span class="warm">oбогреватель</span></h2>
 					<h1>Handy Heater</h1>
-					<p class="oredr-p">Закажите сейчас за:</p>
+					<p class="order-p">Закажите сейчас за:</p>
 					<p class="price"><span class="strikethrough">1300 грн</span><span class="new-price">899 грн</span></p>
-					<p>Бесплатная доставка по всей Украине <br> Оплата при получении</p>
+					<p class="free-del">Бесплатная доставка по всей Украине <br> Оплата при получении</p>
 					<a href="#order-form" class="is-active">Заказать сейчас</a>
 					<a href="#ask-question" class="not-active">Задать вопрос</a>
 				</div>
@@ -238,45 +238,44 @@
 		</div>
 	</section>
 
+	<section id="order-form" class="section-vendor-form">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<p class="order-p">Если у Вас есть какие-либо <span class="bold">вопросы</span> о <span class="hh-span">Handy Heater</span>,
+						<br>
+						укажите свои <span class="bold">имя</span>, <span class="bold">номер телефона</span>, и наш
+						оператор свяжется с Вами <span class="bold">в течении пяти минут</span>.</p>
+				</div>
+				<div class="col-sm-12">
+					<form id="contact-form">
+						<!--<h2>Закажите сегодня и грейтесь уже завтра</h2>-->
+						<p>Меня
+							<label for="your-name">зовут</label>
+							<input type="text" name="your-name" id="your-name" minlength="3" placeholder="(Ваше имя)" required></p>
 
-	<section id="ask-question" class="ask-qustion">
-			<div class="container">
-				<div class="row">
-					<h2>Закажите сегодня и грейтесь уже завтра</h2>
-					<div class="col-sm-6 block-text">
-						<ul class="char">
-							<li class="icon-1"><span class="heading-sp">Бесплатная доставка</span> <br><br>
-								Доставим в любой регион Украины. Оплата при получении товара.</li>
-							<hr>
-							<li class="icon-2"><span class="heading-sp">Выгодная покупка</span> <br><br>
-								В данный момент действует
-								сезонная скидка для тех, кто ценит качество
-								и умеет считать деньги.</li>
-							<hr>
+						<p>Мой
+							<label for="tel">телефон</label>
+							<input type="tel" name="your-email" id="tel" placeholder="(Ваш номер телефона)" required>
+						</p>
 
-							<li class="icon-3"><span class="heading-sp">Защита прав потребителей</span> <br><br>
-								Вы вправе вернуть товар в
-								течении 14 дней с момента
-								получения.</li>
-							<hr>
+						<p>Дополнительные
+							<label for="your-message">коментарии</label> <span class="un-focused">(не обязательно)</span></p>
 
-							<li class="icon-4"><span class="heading-sp">Официальный магазин</span> <br><br>
-								Работаем только напрямую с
-								заводом-изготовителем.</li>
-						</ul>
-					</div>
-					<div class="col-sm-6 ask-form">
-						<p class="leave-msg">Отсавьте Вашу заявку и наш оператор свяжится с Вами в течении 5 минут</p>
-						<form>
-							<input type="text" name="name" placeholder="Ваше имя" required>
-							<input type="tel" name="tel" id="tel2" placeholder="Ваш номер телефона" required>
-							<button class="os-animation">Отправить</button>
-						</form>
-					</div>
+						<p>
+							<textarea name="your-message" id="your-message" placeholder="(По желанию, оставьте Ваши коментарии)" class="expanding"></textarea>
+						</p>
+
+						<div class="row form-line">
+							<div class="col-md-12">
+								<input type="submit" value="Отправить">
+							</div>
+						</div>
+					</form>
 				</div>
 			</div>
+		</div>
 	</section>
-
 
 
 <!--	<section class="photo-stock">
@@ -502,45 +501,51 @@
 
 
 
+	<section id="ask-question" class="ask-qustion">
 
-	<section id="order-form" class="section-vendor-form">
-		<div class="container">
+		<div class="container askq">
 			<div class="row">
-				<div class="col-sm-12">
-					<p class="order-p">Если у Вас остались какие-либо <span class="bold">вопросы</span> о <span class="hh-span">Handy Heater</span>,
-						<br>
-						укажите свои <span class="bold">имя</span>, <span class="bold">номер телефона</span>, и наш
-						оператор свяжется с Вами <span class="bold">в течении пяти минут</span>.</p>
+				<div class="row">
+					<h2>Закажите сегодня и <span class="color-switch">грейтесь уже завтра</span></h2>
 				</div>
-				<div class="col-sm-12">
-					<form id="contact-form">
-						<!--<h2>Закажите сегодня и грейтесь уже завтра</h2>-->
-						<p>Меня
-							<label for="your-name">зовут</label>
-							<input type="text" name="your-name" id="your-name" minlength="3" placeholder="(Ваше имя)" required></p>
+				<div class="col-sm-6 block-text">
+					<ul class="char">
+						<li class="icon-1"><span class="heading-sp">Бесплатная доставка</span> <br><br>
+							Доставим в любой регион Украины. Оплата при получении товара.</li>
+						<hr>
+						<li class="icon-2"><span class="heading-sp">Выгодная покупка</span> <br><br>
+							В данный момент действует
+							сезонная скидка для тех, кто ценит качество
+							и умеет считать деньги.</li>
+						<hr>
 
-						<p>Мой
-							<label for="tel">телефон</label>
-							<input type="tel" name="your-email" id="tel" placeholder="(Ваш номер телефона)" required>
-						</p>
+						<li class="icon-3"><span class="heading-sp">Защита прав потребителей</span> <br><br>
+							Вы вправе вернуть товар в
+							течении 14 дней с момента
+							получения.</li>
+						<hr>
 
-						<p>Дополнительные
-							<label for="your-message">коментарии</label> <span class="un-focused">(не обязательно)</span></p>
-
-						<p>
-							<textarea name="your-message" id="your-message" placeholder="(По желанию, оставьте Ваши коментарии)" class="expanding"></textarea>
-						</p>
-
-						<div class="row form-line">
-							<div class="col-md-12">
-								<input type="submit" value="Заказать">
-							</div>
-						</div>
+						<li class="icon-4"><span class="heading-sp">Официальный магазин</span> <br><br>
+							Работаем только напрямую с
+							заводом-изготовителем.</li>
+					</ul>
+				</div>
+				<div class="col-sm-6 ask-form">
+					<p class="leave-msg">Отсавьте Вашу заявку и наш оператор свяжится с Вами в течении 5 минут</p>
+					<form>
+						<input type="text" name="name" placeholder="Ваше имя" required>
+						<input type="tel" name="tel" id="tel2" placeholder="Ваш номер телефона" required>
+						<button class="os-animation">Заказать</button>
 					</form>
 				</div>
 			</div>
 		</div>
 	</section>
+
+
+
+
+
 
 
 	<footer id="contacts">
