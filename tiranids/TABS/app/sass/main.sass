@@ -1,0 +1,283 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+html, body
+	height: 100%
+//
+//body
+//	font-size: 16px
+//	min-width: 320px
+//	position: relative
+//	line-height: 1.75
+//	font-family: $default-font
+//	overflow-x: hidden
+//	opacity: 1
+
+
+
+/* !-- General STYLE --! */
+
+
+
+.card-section-2
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.75
+	overflow-x: hidden
+	opacity: 1
+	h1
+		text-align: center
+		font-weight: 700
+	.h2
+		font-size: 24px
+		font-weight: 700
+	.h3
+		font-size: 18px
+		font-weight: 500
+	.margin-20
+		margin: 20px 0
+
+	.margin-bot-50
+		margin-bottom: 50px
+
+	.margin-50
+		margin: 50px 0
+
+	.text-center
+		text-align: center
+
+	.hd-text
+		font-size: 110%
+		font-weight: 700
+
+	.img-responsive
+		display: block
+		max-width: 100%
+		height: auto
+
+	img.center
+		display: block
+		margin: 0 auto
+
+	.bgi
+		font-size: 250%
+
+
+.sidelines
+	font-weight: 500
+	font-size: 150%
+	width: 70%
+	margin: .7em auto
+	overflow: hidden
+	text-align: center
+	color: #292929
+	&:before
+		content: ""
+		display: inline-block
+		width: 25%
+		margin: 0 .5em 0 -55%
+		vertical-align: middle
+		border-bottom: 1.5px solid
+	&:after
+		content: ""
+		display: inline-block
+		width: 25%
+		vertical-align: middle
+		border-bottom: 1.5px solid
+		margin: 0 -55% 0 .5em
+	&:before, &:after
+		/* цвет линий по бокам от текста */
+		color: #eb5f2e
+
+.li-checkmarks-1, .li-checkmarks-2, .warning, .lich-1
+	font-size: 110%
+	list-style: none
+	padding: 0
+	line-height: 130%
+	li
+		padding-left: 1.3em
+		padding-bottom: 1.1em
+		margin-left: -1.3em
+		&:before
+			/* цвет иконки характиристики (галочка) */
+			color: #eb5f2e
+			/* кодировка иконки */
+			content: "\f383"
+			/* ionicons Unicode (шрифт для иконок) */
+			font-family: ionicons
+			display: inline-block
+			width: 1.3em
+			font-size: 110%
+
+.warning
+	li:before
+		content: "\f100"
+.li-checkmarks-2, .lich-2
+	li:before
+		/* цвет иконки комплектации (плюс) */
+		//color: #4b92d7
+		/* кодировка иконки */
+		content: "\f359"
+
+
+
+.container
+	max-width: 960px
+	margin-bottom: 40px
+
+
+.item-wrapper, .item-wrapper-last
+	height: 65px
+	width: 65px
+	line-height: 65px
+	display: inline-block
+	background-color: #eb5f2e
+	text-align: center
+	border-radius: 50%
+	color: #f6f6f6
+
+.pain_item
+	padding: 10px 0
+.pain-title
+	text-align: center
+	padding-bottom: 50px
+.p_item_icon, .p_item_icon-last
+	float: left
+	width: 20%
+	display: inline-block
+	margin-right: 15px
+.p_item_text, .p_item_text-last
+	display: inline-block
+	width: 70%
+	.h3, p
+		margin-top: 0
+
+.p_item_icon-last
+	width: 7%
+
+
+.tabs
+	//height: 70%
+	.tab-nav
+		cursor: pointer
+		clear: both
+		margin: 0
+		padding: 3px
+		float: left
+		width: 100%
+		background: #ebebeb
+		border-radius: 4px
+		li
+			float: left
+			margin: 0
+			padding: 0
+			width: 25%
+			text-align: center
+			list-style: none
+			display: inline-block
+			border: 1px solid #e1e1e1
+			border-top: 3px solid transparent
+			transition: all ease-in-out .3s
+			a
+				color: #4f4f4f
+				text-decoration: none
+				padding: 20px
+				width: 100%
+				float: left
+				border-radius: 4px
+				//color: lighten($brand-black, 70%)
+				&:hover 
+					color: lighten($brand-black, 30%)
+
+			&.active
+				border-top: 3px solid #eb5f2e
+				a 
+					background: #fefefe
+					color: #eb5f2e
+			&:hover
+				border: 1px solid  #eb5f2e
+				border-top: 3px solid #eb5f2e
+				border-radius: 4px
+
+	.tab-content-wrap 
+		clear: both
+		position: relative
+		top: 20px
+		.tab-content
+			position: absolute
+			top: 0
+			left: 0
+			width: 100%
+			opacity: 0
+			display: none
+			//visibility: hidden
+			&.active 
+				opacity: 1
+				//visibility: visible
+				display: block
+	.icon-xlg
+		font-size: 400px
+		margin-bottom: 30px
+		text-align: center
+
+
+
+@media screen and (max-width: 767px)
+	.sidelines
+		margin-top: 30px
+		font-size: 107%
+	.li-checkmarks-1, .li-checkmarks-2, .warning
+		font-size: 100%
+	.card-section-2
+		font-size: 14px
+		h1
+			font-size: 20px
+			text-align: center
+			font-weight: 700
+		.h2
+			font-size: 18px
+			font-weight: 700
+		.h3
+			font-size: 15px
+			font-weight: 500
+	.tabs
+		font-size: 14px
+		.tab-nav
+			float: none
+			width: 100%
+			background: transparent
+			//border-radius: 4px
+			li
+				cursor: pointer
+				float: none
+				margin: 0
+				padding: 0
+				width: 100%
+				border: none
+				text-align: center
+				list-style: none
+				display: block
+				transition: all ease-in-out .3s
+				a
+					background-color: #d6d6d6
+				&.active
+					a
+						background: #ffffff
+						color: #eb5f2e
+						border: 1px solid  #eb5f2e
+						border-top: 3px solid #eb5f2e
+						border-radius: 4px
+				&:hover
+					border: 1px solid  transparent
+					border-top: 3px solid transparent
+					border-radius: 4px
+
+
+
+
+
+
+
+@import "media" // Всегда в конце
